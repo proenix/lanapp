@@ -1,0 +1,1 @@
+yii.bat message/extract @app/../common/config/i18n.php

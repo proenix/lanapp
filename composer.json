@@ -1,0 +1,36 @@
+{
+    "name": "proenix/lanapp",
+    "description": "lanapp",
+    "keywords": ["yii2", "lanapp"],
+    "type": "project",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/proenix/lanapp/issues",
+        "source": "https://github.com/proenix/lanapp"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-apidoc": "~2.0.0",
+        "rmrevin/yii2-fontawesome": "~2.14",
+        "kartik-v/yii2-widgets": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
